@@ -7,7 +7,7 @@
     const { v4 } = require('uuid');
     
     const app = express();
-    const port = process.env.PORT || 4000;
+    const port = process.env.PORT || 80;
     const pusher = new Pusher({
       appId: process.env.PUSHER_APP_ID,
       key: process.env.PUSHER_KEY,
